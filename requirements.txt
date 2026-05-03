@@ -1,0 +1,45 @@
+# ============================================================
+# Numerical Python (libro) — requirements.txt
+# Python recomendado: 3.11 o 3.12
+# Todas las versiones verificadas sin conflictos (pip check ✓)
+# ============================================================
+
+# --- Núcleo científico ---
+numpy==2.4.4
+scipy==1.17.1
+sympy==1.14.0
+
+# --- Visualización ---
+matplotlib==3.10.9
+seaborn==0.13.2
+
+# --- Datos ---
+pandas==3.0.2
+patsy==1.0.2
+statsmodels==0.14.6
+
+# --- Machine Learning ---
+scikit-learn==1.8.0
+
+# --- Redes / Grafos ---
+networkx==3.6.1
+
+# --- Estadística Bayesiana ---
+pymc==5.28.5
+
+# --- Optimización de código ---
+numba==0.65.1
+Cython==3.2.4
+
+# --- I/O de datos ---
+h5py==3.16.0
+tables==3.11.1
+
+# --- Entorno Jupyter ---
+ipython==9.13.0
+jupyterlab==4.5.7
+notebook==7.5.6
+
+# --- FEniCS (Cap. 11 — PDEs) ---
+# NO se instala con pip. Usar Docker:
+# docker pull dolfinx/lab:stable
